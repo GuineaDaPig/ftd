@@ -1,5 +1,6 @@
 {
   "values": [
-    "ftd:ftd_main"
+    "ftd:ftd_main",
+    "ftd:mobs/mob_main"
   ]
 }

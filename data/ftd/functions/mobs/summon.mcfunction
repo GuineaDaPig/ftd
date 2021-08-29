@@ -1,0 +1,1 @@
+execute if entity @s[type=enderman] at @s run function ftd:mobs/argentavis/summ_argent
