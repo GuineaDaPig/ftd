@@ -1,2 +1,2 @@
 execute if entity @s[type=enderman,tag=desert] at @s run function ftd:mobs/argentavis/summ_argent
-execute if entity @s[type=rabbit,scores={rando=0..1},tag=desert] at @s run function ftd:mobs/death_worm/summ_death_worm
+execute if entity @s[type=rabbit,scores={rando=0..20},tag=desert] at @s run function ftd:mobs/death_worm/summ_death_worm
