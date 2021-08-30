@@ -1,4 +1,2 @@
-tag @e[tag=!death_worm,type=!#ftd:do_not_target,distance=..6,sort=nearest,limit=1,nbt={OnGround:1b}] add target
-teleport @s @e[tag=target,sort=nearest,limit=1,distance=..6]
+execute at @e[type=!#ftd:do_not_target,type=!item,distance=..6,nbt={OnGround:1b}] run summon evoker_fangs ~ ~ ~ {Tags:["death_worm_fangs","desert","checked"],CustomName:'{"text":"Death Worm"}'}
 scoreboard players set @s timer_ftd 0
-tag @s remove notarget

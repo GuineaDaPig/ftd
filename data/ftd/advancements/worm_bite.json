@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "source_entity": {
+              "nbt": "{Tags:[\"death_worm_fangs\"]}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "ftd:mobs/death_worm/effect"
+    }
+  }
+  

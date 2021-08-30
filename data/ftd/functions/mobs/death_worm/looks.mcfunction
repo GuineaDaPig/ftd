@@ -1,3 +1,0 @@
-execute unless entity @e[tag=death_slime,distance=..1] run summon slime ~ ~ ~ {NoGravity:1b,Silent:1b,NoAI:1b,Size:2,Tags:["checked","death_slime"],ActiveEffects:[{Id:11b,Amplifier:2b,Duration:200000000,ShowParticles:0b},{Id:14b,Amplifier:1b,Duration:20000000,ShowParticles:0b}],Attributes:[{Name:"minecraft:generic.armor",Base:30.0d},{Name:"minecraft:generic.armor_toughness",Base:20.0d}]}
-execute at @s run teleport @e[tag=target,distance=..2] ~ ~ ~
-data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:golden_hoe",Count:1b,tag:{CustomModelData:1}}]}

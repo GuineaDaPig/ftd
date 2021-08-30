@@ -13,5 +13,6 @@ execute at @a as @e[type=!player,tag=!checked,distance=..50] run function ftd:bi
 
 execute at @a as @e[type=!player,tag=!checked,distance=..50] run function ftd:mobs/mob_randomize
 
-execute as @e[tag=target] unless entity @e[tag=death_worm,type=armor_stand,distance=..7] run tag @s remove target
+
+execute as @e[tag=target] at @s unless entity @e[tag=death_worm,type=armor_stand,distance=..7] run tag @s remove target
 

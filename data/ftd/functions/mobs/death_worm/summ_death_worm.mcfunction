@@ -1,2 +1,2 @@
-summon armor_stand ~ ~ ~ {Silent:1b,NoGravity:1b,Invunerable:1b,Small:1b,Invisible:1b,NoBasePlate:1b,DisabledSlots:4144959,Tags:["death_worm","desert","checked"],CustomName:'{"text":"Death Worm"}',ArmorItems:[{},{},{},{}]}
+summon wandering_trader ~ ~ ~ {Silent:1b,NoGravity:1b,Invunerable:1b,Tags:["death_worm","desert","checked"],CustomName:'{"text":"Death Worm"}',ArmorItems:[{},{},{},{}]}
 tp @s ~ -215 ~
