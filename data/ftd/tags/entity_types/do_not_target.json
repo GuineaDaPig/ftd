@@ -20,7 +20,6 @@
     "minecraft:trident",
     "minecraft:tnt",
     "minecraft:falling_block",
-    "minecraft:tnt_minecart",
-    "minecraft:expirence_orb"
-  ]
+    "minecraft:tnt_minecart"
+    ]
 }

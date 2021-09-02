@@ -1,2 +1,2 @@
-execute at @e[type=!#ftd:do_not_target,type=!item,distance=..6,nbt={OnGround:1b}] run summon evoker_fangs ~ ~ ~ {Tags:["death_worm_fangs","desert","checked"],CustomName:'{"text":"Death Worm"}'}
+execute at @e[type=!#ftd:do_not_target,type=!item,distance=..8,nbt={OnGround:1b},sort=nearest,limit=1] run summon evoker_fangs ~ ~-0.5 ~ {Tags:["death_worm_fangs","desert","checked"],CustomName:'{"text":"Death Worm"}'}
 scoreboard players set @s timer_ftd 0
