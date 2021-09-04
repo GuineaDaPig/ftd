@@ -1,2 +1,2 @@
-execute as @a if data entity @s {SelectedItem:{id:"minecraft:clock",Count:1b}} run function ftd:items/argentavis_feather
-execute as @a if data entity @s {Inventory:[{id:"minecraft:clock",Count:1b,Slot:-106b}]} run function ftd:items/argentavis_feather
+execute as @a if data entity @s {SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{argentavis_feather:1b}}} run function ftd:items/argent_feather/argentavis_feather
+execute as @a if data entity @s {Inventory:[{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{argentavis_feather:1b},Slot:-106b}]} run function ftd:items/argent_feather/argentavis_feather
